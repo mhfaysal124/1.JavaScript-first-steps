@@ -1,0 +1,109 @@
+*{
+   font-size: 20px;
+   background-color: #000;
+}
+/* JavaScript css start*/
+
+.container{
+   font-family: Arial, Helvetica, sans-serif;
+   min-height: 200px;
+   padding: 20px;
+   border: 5px solid #810202;
+   background-color: #131417;
+   color: rgb(9, 185, 185);
+}
+
+.container p,
+.container h1,
+.container h2,
+.container h3,
+.container div{
+   padding: 10px;
+   margin: 0;
+}
+
+.container button{
+   background-color:#810202;
+   border: 2px solid black;
+   border-radius: 5px;
+   color: white;
+   padding: 10px;
+   box-shadow: #e7e5e5;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+/* JavaScript css end*/
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+   background-color: #810202;
+   border: 5px solid red;
+   color: #fff;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   text-align: left;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+}
+.accordion i{
+   padding: 7px 10px;
+}
+
+
+   /* Style the accordion panel. Note: hidden by default */
+   .panel {
+      padding: 0 18px;
+      background-color: #131417;
+      display: none;
+      overflow: hidden;
+      /* border: 5px solid orangered; */
+      color: orangered;
+   }
+   
+a{
+   text-decoration: none;
+   color: rgb(9, 185, 185);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-content a{
+   padding: 10px;
+}
+.ol-notes{
+   padding: 20px 50px;
+}
+.ol-notes li{
+   color: orangered;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.previous-next{
+   padding: 10px 40px;
+   display: flex;
+   gap: 10px;
+   align-content: center;
+}
+.next-button, 
+.previous-button{
+   display: flex;
+   /* width: 80px; */
+   border-radius: 5px;
+   border: none;
+   margin: 0 auto;
+   padding: 10px;
+   background-color: #131417;
+
+}
+.next-button a, 
+.next-button a i,
+.previous-button a,
+.previous-button a i{
+   color: white;   
+   /* gap: 5px; */
+   /* text-align: center; */
+   background-color: #131417;
+
+}
+
+

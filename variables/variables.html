@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Variables</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   <link rel="stylesheet" href="../style.css">
+   <style>
+      .container{
+         min-height: 400px;
+      }
+   </style>
+</head>
+<body>
+   <!-- JavaScript and HTML content goes start -->
+   <div class="container">
+
+
+
+
+
+
+
+
+
+
+      <button>Press me</button>
+      <h3></h3>
+      <div class="demo"></div>
+
+      <script>
+
+      const btn = document.querySelector('button');
+      const txt = document.querySelector('h3');
+
+      btn.onclick = () => {
+         const name = prompt('What is your name.');
+         alert(`Hello ${name}, nice to see you!`);
+         txt.textContent = `Welcome ${name}`;
+      }
+
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+   <!-- JavaScript and HTML content goes end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Notes start  -->
+   <div>      
+      <button class="accordion">In this 
+         - <i style="color: orangered;">"Variables"</i> -
+         lessons we have learn:</button>
+      <div class="panel">
+         <p class="all-content">
+            <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables">
+               <b>Dcos Link: </b>
+               Storing the information you need — Variables
+            </a> <br> 
+
+            <ol class="ol-notes">
+               <li>let, const, var</li>
+               <li>Number, string, boolean</li>
+               <li>Object</li>
+               <li>Array</li>
+            </ol>
+            
+
+         </p>
+      </div>
+      <div class="previous-next">
+         <button class="next-button">
+            <a href = "../index.html">
+               <i class="fa fa-angle-left" aria-hidden="true"></i>
+                Prev
+            </a>
+         </button>
+
+         <button class="next-button">
+            <a href="../index.html">
+                Home
+            </a>
+         </button>
+
+         <button class="next-button">
+            <a href="../number&operators/num-operators.html">
+               Next
+               <i class="fa fa-angle-right"></i>
+            </a>
+         </button>
+      </div>
+      <!-- script language -->
+      <script src="/script.js"></script>
+   </div>
+   <!-- Notes end -->
+
+
+</body>
+</html>

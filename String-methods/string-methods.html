@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Useful string methods</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+   <!-- JavaScript and HTML content goes start -->
+   <div class="container">
+
+
+      
+
+
+
+
+      <!-- project 1 -->
+      <button class="js-btn">Press me</button>
+      <div class="js-txt"></div>
+
+      <!-- project 2 -->
+      <p class="js-includes-txt">The quick brown fox jumps over the lazy dog.</p>
+      <p class="js-founded-word"></p>
+
+      <script>
+         // project 1 start >>>>>>>>>>>>>>>>>>>>.
+         const buttonElem = document.querySelector('.js-btn');
+         const textElem = document.querySelector('.js-txt');
+
+         function greeting() {
+            const name = prompt('What is your name?');
+            textElem.textContent = `Hello ${name}, nice to see you!`;
+         };
+         buttonElem.addEventListener('click', greeting);         
+         // project 1 end 
+
+         // project 2 start 
+         const includesTxtElem = document.querySelector('.js-includes-txt').innerHTML;
+         const foundedWord = document.querySelector('.js-founded-word');
+         const foundThis = 'fox';
+         foundedWord.textContent = `The word "${foundThis}" ${
+            includesTxtElem.includes(foundThis) ? 'is' : 'is not'
+         } in the sentence.`;
+         
+
+         // project 2 end
+
+
+         // Row codding practice start >>>>>>>>>>>>>>>>>>
+
+//          const greet = 'Hello';
+//          const name = 'Chris';
+//          console.log(`${greet}, ${name}`);
+
+//          const newLine = `One day you finally knew
+// what you to do, and began.`;
+//          console.log(newLine);
+
+//          const newLine2 = 'One day you finally knew\nwhat you to do, and began.';
+//          console.log(newLine2);
+
+            // const bigmouth = 'I\'ve got no right to take my place.....';
+            // const whatIsName ='What\'s your name?';
+            // console.log(`${bigmouth}, \n${whatIsName}`);
+
+            // const countWords = 'Hello this is MH Fasyal';
+            // console.log(countWords.length)
+
+            // const sentence = 'The quick brown fox jumps over the lazy dog.';
+            // const word = 'fox';
+            // const result = `The word "${word}" ${
+            //    sentence.includes(word) ? 'is' : 'is not'
+            // } in the sentence.`;
+            // console.log(result);
+
+            // const browserType = 'mozila zilla';
+            // if(browserType.startsWith('zilla')) {
+            //    console.log('Found zilla!');
+            // } else{
+            // //    console.log('no zilla here!');
+            // // };
+
+            // if(browserType.endsWith('zilla')) {
+            //    console.log('Found zilla');
+            // } else{
+            //    console.log('no zilla here!');
+            // };
+
+            // const tagline = 'MDN - Resources for developers, by developers';
+            // const resultIn = tagline.indexOf('developers');
+            // const resultIn2 = tagline.indexOf('x');
+            // const resultIn3 = tagline.indexOf('developers', resultIn + 1);
+            // console.log(resultIn);
+            // console.log(resultIn2);
+            // console.log(resultIn3);
+               
+            // const stringElem = 'mozilla';
+            // console.log(stringElem.slice(2));
+            // console.log(stringElem.slice(2, 7));
+            // console.log(stringElem.slice(1, 5));
+
+            const txtElem = 'faMysal My NaMe Is Mh .';
+            console.log(txtElem);
+            console.log(txtElem.toUpperCase());
+            console.log(txtElem.toLowerCase());
+
+            console.log(txtElem.replace('My', 'Her'));
+            console.log(txtElem.replace('Me', 'me'));
+            console.log(txtElem.replaceAll('My', 'Her'))
+
+
+      </script>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+   <!-- JavaScript and HTML content goes end -->
+   
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Notes start  -->
+   <div>      
+      <button class="accordion">In this 
+         - <i style="color: orangered;">"Useful string methods"</i> -
+         lessons we have learn:</button>
+      <div class="panel">
+         <p class="all-content">
+            <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods">
+               <b>Dcos Link: </b>
+                  Useful string methods
+            </a> <br> 
+
+            <ol class="ol-notes">
+               <li>.length;</li>
+               <li>.includes(); => 1 parameters.</li>
+               <li>.startWith(); => 1 parameters.</li>
+               <li>.endsWith(); => 1 parameters.</li>
+               <li>.indexOf(); => 1 / 2 parameters.</li>
+               <li>.slice(); => 1 / 2 parameters.</li>
+               <li>.toUpperCase();</li>
+               <li>.toLowerCase();</li>
+               <li>.replace(); => 2 parameterss</li>
+               <li>.replaceAll(); => 2 parameterss</li>
+               <!-- <li>.search();</li>
+               <li>.match();</li>
+               <li>.lastIndexOf();</li>
+               <li>.trim();</li>
+               <li>.chartAt();</li>
+               <li>.chartCodeAt();</li>
+               <li>.concat();</li>
+               <li>.split();</li>
+               <li>.repeat();</li>
+               <li>.substr();</li>
+               <li>.subString();</li>
+               <li>toString();</li>
+               <li>.valueOf();</li> -->
+            </ol>
+            
+
+            
+
+         </p>
+      </div>
+      <div class="previous-next">
+         <button class="previous-button">
+            <a href="../String-in-javaScript/string.html">
+               <i class="fa fa-angle-left" aria-hidden="true"></i>
+                Prev
+            </a>
+         </button>
+
+         <button class="previous-button">
+            <a href="../index.html">
+               Home
+            </a>
+         </button>
+
+         <button class="next-button">
+            <a href="../Arrays/arrays.html">
+               Next
+               <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+         </button>
+      </div>
+      <!-- script language -->
+      <script src="/script.js"></script>
+   </div>
+   <!-- Notes end -->
+
+
+
+</body>
+</html>

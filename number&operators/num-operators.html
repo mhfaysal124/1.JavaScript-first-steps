@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Numbers and Operators</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+   <!-- JavaScript and HTML content goes start -->
+   <div class="container">
+
+
+
+
+
+
+
+
+
+
+      <button>Start machine</button>
+      <p>The machine is stopped.</p>
+      <script>
+         const btn = document.querySelector('button');
+         const txt = document.querySelector('p');
+
+         btn.addEventListener('click', () => {
+            if(btn.textContent === 'Start machine') {
+               btn.textContent = 'Stop machine';
+               txt.textContent = 'The machine has started!';
+            } else if(btn.textContent === 'Stop machine') {
+               btn.textContent = 'Start machine';
+               txt.textContent = 'The machine is stopped.';
+            }
+         });
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+   <!-- JavaScript and HTML content goes end -->
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- Notes start  -->
+   <div>      
+      <button class="accordion">In this 
+         - <i style="color: orangered;">
+            
+            "Numbers and Operators"
+
+         </i> -lessons we have learn:</button>
+      <div class="panel">
+         <p class="all-content">
+            <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables">
+               <b>Dcos Link: </b>
+
+               Basic math in JavaScript — Numbers and Operators
+
+            </a><br> 
+
+
+
+            <ol class="ol-notes">
+               <li>toFixed();</li>
+               <li>Math.pow();</li>
+               <li>Number();</li>
+               <li>Increment++;</li>
+               <li>Decrement--;</li>
+            </ol>
+            
+
+            
+
+         </p>
+      </div>
+      <div class="previous-next">
+         <button class="previous-button">
+            <a href="../Variables/variables.html">
+               <i class="fa fa-angle-left" aria-hidden="true"></i>
+                Prev
+            </a>
+         </button>
+
+         <button class="previous-button">
+            <a href="../index.html">
+               Home
+            </a>
+         </button>
+
+         <button class="next-button">
+            <a href="../String-in-javaScript/string.html">
+               Next
+               <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </a>
+         </button>
+      </div>
+      <!-- script language -->
+      <script src="/script.js"></script>
+   </div>
+   <!-- Notes end -->
+
+</body>
+</html>
